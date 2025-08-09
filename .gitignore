@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.env
+.venv/
+.env.*
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# Byte-compiled / optimized / DLL files
+build/
+dist/
+*.egg-info/
+
+# Docker
+*.log
