@@ -9,7 +9,7 @@ from .models import Base
 
 app = FastAPI()
 
-# Create tables at startup (for demo). In prod, use Alembic.
+
 @app.on_event("startup")
 def on_startup():
     Base.metadata.create_all(bind=engine)
